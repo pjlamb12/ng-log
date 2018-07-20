@@ -1,0 +1,28 @@
+{
+	"name": "ng-log",
+	"version": "1.0.0",
+	"peerDependencies": {
+		"@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+		"@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+	},
+	"description": "Angular service to facilitate logging based on environment.",
+	"license": "MIT",
+	"author": {
+		"name": "Preston Lamb",
+		"email": "preston@prestonlamb.com",
+		"url": "http://www.prestonlamb.com"
+	},
+	"maintainers": [
+		"Preston Lamb"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pjlamb12/ng-log"
+	},
+	"keywords": [
+		"angular",
+		"logger",
+		"console.log",
+		"logging service"
+	]
+}

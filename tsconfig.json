@@ -15,6 +15,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-log-lib": [
+        "dist/ng-log-lib"
+      ],
+      "ng-log-lib/*": [
+        "dist/ng-log-lib/*"
+      ]
+    }
   }
 }
