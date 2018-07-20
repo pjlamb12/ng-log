@@ -1,4 +1,4 @@
-# NgLog — Angular Logging Service Package
+# `ng-env-logger` — Angular Logging Service Package
 
 How many times have you left a rogue `console.log` in your production code? That's the worst, right? This package will help keep that from occurring.
 

@@ -1,6 +1,6 @@
 {
-	"name": "ng-log",
-	"version": "1.0.0",
+	"name": "ng-env-logger",
+	"version": "1.0.2",
 	"peerDependencies": {
 		"@angular/common": "^6.0.0-rc.0 || ^6.0.0",
 		"@angular/core": "^6.0.0-rc.0 || ^6.0.0"
@@ -19,6 +19,7 @@
 		"type": "git",
 		"url": "https://github.com/pjlamb12/ng-log"
 	},
+	"homepage": "https://stackblitz.com/edit/ng-env-logger",
 	"keywords": [
 		"angular",
 		"logger",
