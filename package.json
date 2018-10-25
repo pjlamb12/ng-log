@@ -1,6 +1,6 @@
 {
 	"name": "ng-log",
-	"version": "0.0.0",
+	"version": "1.0.3",
 	"scripts": {
 		"ng": "ng",
 		"start": "ng serve",
@@ -10,7 +10,8 @@
 		"e2e": "ng e2e",
 		"build:lib": "ng build --prod ng-log-lib",
 		"pack:lib": "cd dist/ng-log-lib && npm pack",
-		"package": "npm run build:lib && npm run pack:lib"
+		"package": "npm run build:lib && npm run pack:lib",
+		"deploy": "npm run package && npm publish dist/ng-log-lib"
 	},
 	"private": true,
 	"dependencies": {
