@@ -12,6 +12,12 @@ export class NgLogService {
 		this.level = config.level;
 	}
 
+	updateLogLevel(level: number) {
+		if (level <= LogLevels.LOG && level >= LogLevels.ERROR) {
+			this.level = level;
+		}
+	}
+
 	error(...params) {
 		if (this.level >= LogLevels.ERROR) {
 			console.error(...params);

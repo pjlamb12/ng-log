@@ -15,3 +15,5 @@ When the service is initialized, you provide a level for it to write. So, for ex
 To use the service, add the following to your `AppModule`'s imports array:
 
     NgLogModule.forRoot({ level: LogLevels.WARN }),
+
+To update the logging level, call the `updateLogLevel` function on the service and pass it a one of the above levels. The provided number does have to be between 1 and 5, which are the values that the enum LogLevels provides.
