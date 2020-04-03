@@ -163,5 +163,8 @@
       }
     }
   },
-  "defaultProject": "ng-log"
+  "defaultProject": "ng-log",
+  "cli": {
+    "analytics": "a085e3d8-fecd-41d5-a2f3-d9b9dee1a834"
+  }
 }
