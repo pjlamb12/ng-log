@@ -30,7 +30,7 @@
   "devDependencies": {
     "@angular/compiler-cli": "^9.1.0",
     "@angular-devkit/build-ng-packagr": "~0.901.0",
-    "@angular-devkit/build-angular": "~0.901.0",
+    "@angular-devkit/build-angular": "~15.0.4",
     "ng-packagr": "^9.1.0",
     "tsickle": "0.38.1",
     "tslib": "^1.11.1",
